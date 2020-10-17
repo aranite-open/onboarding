@@ -22,6 +22,7 @@
  - [Conda Virtual Environment](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html)
 
 **Django**
+
  - Through the following video learn thsese concepts in Django: [Python Django Web Framework - Full Course for Beginners](https://www.youtube.com/watch?v=F5mRW0jo-U4)
    - **Note that Since we use React for Front-End, which you will learn more about later, we do not use forms.**
    - **Watch the first hour of the video**
@@ -37,6 +38,7 @@
 
 2. Whenever you face a problem with implementation of Django syntax and structure search it in Django documentation:
 - [Django Documentation](https://docs.djangoproject.com/en/3.1/)
+
   - In Django Documentation:
     - Learn about Field Types: [Field Types](https://docs.djangoproject.com/en/3.1/topics/forms/modelforms/#topics-forms-modelforms)
     
@@ -109,6 +111,7 @@
 
 10. Use spread syntax where zero or more arguments (for function calls) or elements (for array literals) or key-value pairs (for object literals)are expected:
 - [Spread Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
 11. To connect front-end with back-end, you will need to send HTTP request using axios. "In axios API" section you will see how you can implement it:
 - [Axios](https://github.com/axios/axios)
 
@@ -132,6 +135,7 @@
 ## Styling:
 1. Instead of CSS we use material ui, which is a user interface library for React:
 [Install Material UI](https://material-ui.com/getting-started/installation/) 
+
 - In Material UI go to component section, learn how to use "Container , paper, Grid, Button, Checkbox, Select, Text Field, Divider, Table" and their APIs( what are their inputs).
 
 ## Important Notes:
