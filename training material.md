@@ -22,21 +22,40 @@
  - [Conda Virtual Environment](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html)
 
 **Django**
-1. To learn about how to create a project and  models you need to follow the instructions and build the module step by step until you see the running project on admin page(Django Tutorial Part 2-4)
-- [Django Project](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Tutorial_local_library_website)
-- The result for our project looks like this:
+ - Through the following video learn thsese concepts in Django: [Python Django Web Framework - Full Course for Beginners](https://www.youtube.com/watch?v=F5mRW0jo-U4)
+   - **Note that Since we use React for Front-End, which you will learn more about later, we do not use forms.**
+   - **Watch the first hour of the video**
+   - Installing. Virtual environment 
+   - Django settings
+   - Built-In components
+   - New model fields 
+   - Custom homepage 
+   - URL routing
+   
+- The result for our project in admin page looks like this:
 - ![image](https://github.com/yaldaafshar/research/blob/master/Training%20Material/admin.jpg)
 
 2. Whenever you face a problem with implementation of Django syntax and structure search it in Django documentation:
 - [Django Documentation](https://docs.djangoproject.com/en/3.1/)
+  - In Django Documentation:
+    - Learn about Field Types: [Field Types](https://docs.djangoproject.com/en/3.1/topics/forms/modelforms/#topics-forms-modelforms)
+    
+3. Underestanding Django models relationships( One-To-Many, Many-to-Many, One-to-One):
+- [Django Model Relationships](https://www.youtube.com/watch?v=2KqhBkMv7aM)
 
-3. Start working with Django Rest Framework through using its Serializers, views and URLs features  in your project and show the information in JSON:
+3. What are Meta classes: [Meta classes](https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python)
+
+4. Start working with Django Rest Framework through using its Serializers, views and URLs features in your project and show the information in JSON:
 - [Django-REST-Framework](https://www.django-rest-framework.org/tutorial/quickstart/)
 - The Result for our course-outline project looks like this:
 - ![image](https://github.com/yaldaafshar/research/blob/master/Training%20Material/Rest-Framework.jpg)
+- Use [Serializer](https://www.django-rest-framework.org/api-guide/serializers/) to translate Django models into other formats so you will be able to send data over network or store in files.
+- [Difference between Model Serializer and Hyperlinked serializer](https://stackoverflow.com/questions/33421147/what-is-the-benefit-of-using-a-hyperlinkedmodelserializer-in-drf)
+- Use [Routers](https://www.django-rest-framework.org/api-guide/routers/) to map the incoming request to proper viewset action based on the request method type (i.e GET, POST,etc)
+- Use [class-based views](https://www.django-rest-framework.org/tutorial/3-class-based-views/) to take Web Requests and return Web response.
 
 **React and JavaScript**
-1. Become familiar with HTML DOM, element and attribute concepts:
+1. Become familiar with HTML DOM(Document Object Model),which is the logical structure of documents and the way a document is accessed and manipulated, element and attribute concepts:
 - [HTML DOM](https://www.youtube.com/watch?v=RbQGn6vBlys")
 
 2. How browser rendering works(behind the scenes)
@@ -49,11 +68,21 @@
 4. Basic React folder structure:
 - [Folder Structure](https://www.freecodecamp.org/news/quick-guide-to-understanding-and-creating-reactjs-apps-8457ee8f7123/)
 
-5. If you are not familiar with JavaScript syntax and data structure, learn it from here:
+5. If you are not familiar with JavaScript syntax and data structure, learn:
+   - Different types of variables: Var, Let, Const and their scopes
+   - Escape quote in strings
+   - work with Strings, Arrays, Functions, 
+   - Work with Objects, properties, methods ( access properties, update properties, delete properties, manipulate complex objects)
+   - Destructuring syntax in objects
+   - Destructuring syntax in arrays
+   - Copy objects
+   - Copy arrays  
+   - Ternary or inline if-else to write if conditional inside JSX elements -- **another resource** [Inline If-Else with Conditional Operator](https://reactjs.org/docs/conditional-rendering.html)
+   - Learn Arrow Functions and where to use them to write shorter function syntax-- **another resource** [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+   - template literals -- **another resource** [template literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+  - from [Learn JavaScript - Full Course for Beginners](https://www.youtube.com/watch?v=PkZNo7MFNFg)
+  - *Here is a complementory resource for JavaScript** and learn target Event Property and Onchange event from here:
 - [JavaScript](https://www.w3schools.com/js/)
-
-6. You will need to learn about Arrow functions to write shorter function sytax:
-- [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
 
 7. This is a step by step tutorial to learn about React, states and props:
 - [React](https://reactjs.org/docs/hello-world.html)
@@ -93,9 +122,7 @@
     
 12. Notice where you can put javascripts expressions:
 - [Embedding Expressions in JSX ](https://reactjs.org/docs/introducing-jsx.html)
-13. You may not be able to use if-else conditions as well as for loop inside JSX, to implement them inside JSX you will need to learn about inline if-else:
-- [Inline If-Else with Conditional Operator](https://reactjs.org/docs/conditional-rendering.html)
--  as well as map function to implement for loop:
+13. You may not be able to use if-else conditions as well as for loop inside JSX, to implement them inside JSX you will need to learn about map function to implement for loop:
 - [map function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 14. What do curly braces mean in JSX (React)?
 [curly braces](https://stackoverflow.com/questions/43904825/what-do-curly-braces-mean-in-jsx-react)
@@ -105,7 +132,7 @@
 ## Styling:
 1. Instead of CSS we use material ui, which is a user interface library for React:
 [Install Material UI](https://material-ui.com/getting-started/installation/) 
-- In Material UI go to component section, learn how to use "Container , paper, Grid, Button, Checkbox, Select, Text Field, Divider".
+- In Material UI go to component section, learn how to use "Container , paper, Grid, Button, Checkbox, Select, Text Field, Divider, Table" and their APIs( what are their inputs).
 
 ## Important Notes:
 1. Difference between functions and functional component:
