@@ -3,7 +3,7 @@
 ### Learning Path
 
 **REST API**
-1. Watch the first 10 minutes of this video to learn about REST API, and HTTP methods:
+1. Watch the first 10 minutes of this video to learn about REST API and HTTP methods:
       - [REST API](https://www.youtube.com/watch?v=Q-BpqyOT3a8")
 
 2. This is a complementary resource for HTTP methods to send REST API call to the Django server:
