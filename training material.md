@@ -1,40 +1,42 @@
-## Training Material
+# Training Material
 
-### Learning Path
+## Learning Path
 
-**REST API**
+### REST API
+
 1. Watch the first 10 minutes of this video to learn about REST API and HTTP methods:
       - [REST API](https://www.youtube.com/watch?v=Q-BpqyOT3a8")
 
 2. This is a complementary resource for HTTP methods to send REST API call to the Django server:
       - [HTTP Methods](https://restfulapi.net/http-methods/")
 
-**You should activate the virtual environment each time when starting to work on the backend and deactivate it after your work is finished**
- 
-- **create the virtual environment:** 
-1. py -m pip install virtualenv
+### Virtual Environment
 
-2. py -m venv foldername(e.g env)
-   
-- **Activate and deactivate:**
-3. activate: .\env\Scripts\activate
-4. deactivate: deactivate
-  
-     - You may also use Conda virtual environment as an alternative: [Conda Virtual Environment](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html)
+- **Note:** You should activate the virtual environment each time when starting to work on the backend and deactivate it after your work is finished
+1. create the virtual environment 
+     - py -m pip install virtualenv
+     - py -m venv foldername(e.g env)
+2. Activate and deactivate:
+     - activate: .\env\Scripts\activate
+     - deactivate: deactivate
+- **Note:** You may also use Conda virtual environment as an alternative: [Conda Virtual Environment](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html)
 
-**Django**
-- Through the following video learn thsese concepts in Django: [Python Django Web Framework - Full Course for Beginners](https://www.youtube.com/watch?v=F5mRW0jo-U4)
-     - **Note that Since we use React for Front-End, which you will learn more about later, we do not use forms.**
+### Django
+1. Through the following videos learn thsese concepts in Django: [Try Django tutorial series](https://www.youtube.com/playlist?list=PLEsfXFp6DpzTD1BD1aWNxS2Ep06vIkaeW) as well as [full Course for beginners](https://www.youtube.com/watch?v=B38aDwUpcFc)
+     - **Note that Since we use React for Front-End, which you will learn more about later, we do not use Django forms and templates.**
      - Installing. Virtual environment 
-     - Django settings
-     - Built-In components
-     - New model fields 
-     - Custom homepage 
+     - Django Settings
+     - Built-In Components
+     - New Model Fields 
+     - Change a Model
+     - Custom Homepage 
+     - URL Routing and Requests
+     - function based and class based views
    
-  - The result for our project in admin page looks like this:
+2. The result for our project in admin page looks like this:
 ![image](https://github.com/yaldaafshar/research/blob/master/Training%20Material/admin.jpg)
 
-2. Whenever you face a problem with implementation of Django syntax and structure search it in Django documentation:
+3. Whenever you face a problem with implementation of Django syntax and structure search it in Django documentation:
     - [Django Documentation](https://docs.djangoproject.com/en/3.1/)
       - In Django Documentation:
         - Learn about model field types to create fields in models: [Field Types](https://docs.djangoproject.com/en/3.1/topics/forms/modelforms/#topics-forms-modelforms)
@@ -46,14 +48,15 @@
 
 5. Start working with Django Rest Framework through using its Serializers, views and URLs features in your project and show the information in JSON:
     - [Django-REST-Framework](https://www.django-rest-framework.org/tutorial/quickstart/)
-    - The Result for our course-outline project looks like this:
+6. The Result for our course-outline project looks like this:
 ![image](https://github.com/yaldaafshar/research/blob/master/Training%20Material/Rest-Framework.jpg)
-    - [Serialization](https://www.django-rest-framework.org/api-guide/serializers/) is the process of converting Django models into other formats like JSON. We also have deserialization which translate parsed data to complex types to store in files. You should choose the type of serializer that is best for your program.
-    - [Difference between Model Serializer and Hyperlinked serializer](https://stackoverflow.com/questions/33421147/what-is-the-benefit-of-using-a-hyperlinkedmodelserializer-in-drf)
-    - Use [class-based views](https://www.django-rest-framework.org/tutorial/3-class-based-views/) to manage requests and resonses from the web.
-    - Use [Routers](https://www.django-rest-framework.org/api-guide/routers/) maps the incoming request (e.g GET, POST, PUT, DELETE) to proper viewset. 
+7. [Serialization](https://www.django-rest-framework.org/api-guide/serializers/) is the process of converting Django models into other formats like JSON. We also have deserialization which translate parsed data to complex types to store in files. You should choose the type of serializer that is best for your program.
+8. [Difference between Model Serializer and Hyperlinked serializer](https://stackoverflow.com/questions/33421147/what-is-the-benefit-of-using-a-hyperlinkedmodelserializer-in-drf)
+9. Use [class-based views](https://www.django-rest-framework.org/tutorial/3-class-based-views/) to manage requests and resonses from the web.
+10. Use [Routers](https://www.django-rest-framework.org/api-guide/routers/) to map the incoming request (e.g GET, POST, PUT, DELETE) to proper viewset. 
     
-- **React and JavaScript**
+### React and JavaScript
+
 1. Become familiar with HTML DOM (Document Object Model), which is a tree of objects and nodes. The nodes in HTML DOM can be elements, attributes and texts.
     - [HTML DOM](https://www.youtube.com/watch?v=RbQGn6vBlys")
 
@@ -83,18 +86,18 @@
     - *Here is a complementory resource for JavaScript** and learn target Event Property and Onchange event from here:
     - [JavaScript](https://www.w3schools.com/js/)
 
-7. This is a step by step tutorial to learn about React, states, to keep the current state of the program and props, to pass data to components:
+6. This is a step by step tutorial to learn about React, states, to keep the current state of the program and props, to pass data to components:
     - [React](https://reactjs.org/docs/hello-world.html)
     - [state and props](https://reactjs.org/docs/faq-state.html)
     - Example of sending and recieving props in functional components:
     - [props in functional components](https://stackoverflow.com/questions/39963565/react-passing-down-props-to-functional-components)
 
-8. Watch this video to learn about difference between class components and functional components with hooks, useState and useEffect :
+7. Watch this video to learn about difference between class components and functional components with hooks, useState and useEffect :
     - [useState and useEffect](https://www.youtube.com/watch?v=iEVcCdbF1WQ")
     - This is React documentation for hooks. Just skip “Hooks at a Glance” if you are not familiar with React Hooks :
     - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 
-9. You will need React Router, to navigate between the pages of a website. Watch the first 17 minutes of this video:
+8. You will need React Router, to navigate between the pages of a website. Watch the first 17 minutes of this video:
     - [React Router](https://www.youtube.com/watch?v=Law7wfdg_ls&pbjreload=101")
     - This is React Router documentation:
     - [React Router Documentation](https://reactrouter.com/web/guides/quick-start")
@@ -106,35 +109,39 @@
     - you can send information to the next page through the "state" object of "Link":
     - [Link - state](https://stackoverflow.com/questions/41736048/what-is-a-state-in-link-component-of-react-router)
 
-10. Use spread syntax where zero or more arguments (for function calls) or elements (for array literals) or key-value pairs (for object literals)are expected:
+9. Use spread syntax where zero or more arguments (for function calls) or elements (for array literals) or key-value pairs (for object literals)are expected:
     - [Spread Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
-11. To connect front-end with back-end, you will need to send HTTP request using axios. "In axios API" section you will see how you can implement it:
+10. To connect front-end with back-end, you will need to send HTTP request using axios. "In axios API" section you will see how you can implement it:
     - [Axios](https://github.com/axios/axios)
 
-**Most common Errors you may face in this part:**
- - When sending HTTP request to the backend, you may face "Reason: CORS header 'Access-Control-Allow-Origin' missing" error. Read more why this error happens:
-     - [Reason](https://stackoverflow.com/questions/31276220/%20%20%20%20cors-header-access-control-allow-origin-missing)
-     - [Fix the Error](https://stackoverflow.com/questions/35760943/how-can-i-enable-cors-on-django-rest-framework)
-     - to fix the error you need to write "ALLOWED_HOSTS = ['*']" in setting of your application as well.
-     - Read more about Middleware functionality and find the reason why you changed it:
-     - [Middleware](https://docs.djangoproject.com/en/3.1/topics/http/middleware/)
+11. Most common Errors you may face in this part
+- When sending HTTP request to the backend, you may face "Reason: CORS header 'Access-Control-Allow-Origin' missing" error. Read more why this error happens:
+    - [Reason](https://stackoverflow.com/questions/31276220/%20%20%20%20cors-header-access-control-allow-origin-missing)
+    - [Fix the Error](https://stackoverflow.com/questions/35760943/how-can-i-enable-cors-on-django-rest-framework)
+    - to fix the error you need to write "ALLOWED_HOSTS = ['*']" in setting of your application as well.
+    - Read more about Middleware functionality and find the reason why you changed it:
+    - [Middleware](https://docs.djangoproject.com/en/3.1/topics/http/middleware/)
     
-12. Notice where you can put javascripts expressions:
+12. Notice where you can put javascripts expressions
     - [Embedding Expressions in JSX ](https://reactjs.org/docs/introducing-jsx.html)
+    
 13. You may not be able to use if-else conditions as well as for loop inside JSX, to implement them inside JSX you will need to learn about map function to implement for loop:
     - [map function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+    
 14. Why do we use curly braces in JSX(React)?
 [curly braces](https://stackoverflow.com/questions/43904825/what-do-curly-braces-mean-in-jsx-react)
+
 15. Learn how to export parameters from modules:
 [export](https://www.geeksforgeeks.org/reactjs-importing-exporting/)
 
-## Styling:
+### Styling
+
 1. Use CSS to design your user interface [CSS](https://www.w3schools.com/css/) 
 2. You have the flexibility to use material ui which is a user interface library for React, instead of CSS to deisgn your web application:
 [Install Material UI](https://material-ui.com/getting-started/installation/) 
     - In Material UI go to component section, learn how to use "Container , paper, Grid, Button, Checkbox, Select, Text Field, Divider, Table" and their APIs to see what are their inputs.
 
-## Important Notes:
+### Important Notes
 1. Difference between functions and functional component:
     - Functional components should always return a JSX element.
 2. What does useEffect do? 
