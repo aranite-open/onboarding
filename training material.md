@@ -22,21 +22,19 @@
 - **Note:** You may also use Conda virtual environment as an alternative: [Conda Virtual Environment](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/environments.html)
 
 ### Django
-1. Through the following videos learn thsese concepts in Django: [Try Django tutorial series](https://www.youtube.com/playlist?list=PLEsfXFp6DpzTD1BD1aWNxS2Ep06vIkaeW) as well as [full Course for beginners](https://www.youtube.com/watch?v=B38aDwUpcFc)
+1. Through the following videos learn thsese concepts in Django: [Try Django tutorial series](https://www.youtube.com/playlist?list=PLEsfXFp6DpzTD1BD1aWNxS2Ep06vIkaeW) 
      - **Note that Since we use React for Front-End, which you will learn more about later, we do not use Django forms and templates.**
-     - Installing. Virtual environment 
+     - Installing. Virtual environment
+     - Create a Blank Django Project
      - Django Settings
      - Built-In Components
+     - Your First App Component
+     - Create Objects in the Python
      - New Model Fields 
      - Change a Model
-     - Custom Homepage 
      - URL Routing and Requests
-     - function based and class based views
-   
-2. The result for our project in admin page looks like this:
-![image](https://github.com/yaldaafshar/research/blob/master/Training%20Material/admin.jpg)
-
-3. Whenever you face a problem with implementation of Django syntax and structure search it in Django documentation:
+     
+2. Whenever you face a problem with implementation of Django syntax and structure search it in Django documentation:
     - [Django Documentation](https://docs.djangoproject.com/en/3.1/)
       - In Django Documentation:
         - Learn about model field types to create fields in models: [Field Types](https://docs.djangoproject.com/en/3.1/topics/forms/modelforms/#topics-forms-modelforms)
@@ -48,13 +46,15 @@
 
 5. Start working with Django Rest Framework through using its Serializers, views and URLs features in your project and show the information in JSON:
     - [Django-REST-Framework](https://www.django-rest-framework.org/tutorial/quickstart/)
-6. The Result for our course-outline project looks like this:
-![image](https://github.com/yaldaafshar/research/blob/master/Training%20Material/Rest-Framework.jpg)
-7. [Serialization](https://www.django-rest-framework.org/api-guide/serializers/) is the process of converting Django models into other formats like JSON. We also have deserialization which translate parsed data to complex types to store in files. You should choose the type of serializer that is best for your program.
-8. [Difference between Model Serializer and Hyperlinked serializer](https://stackoverflow.com/questions/33421147/what-is-the-benefit-of-using-a-hyperlinkedmodelserializer-in-drf)
-9. Use [class-based views](https://www.django-rest-framework.org/tutorial/3-class-based-views/) to manage requests and resonses from the web.
-10. Use [Routers](https://www.django-rest-framework.org/api-guide/routers/) to map the incoming request (e.g GET, POST, PUT, DELETE) to proper viewset. 
-    
+    - This is a complementory resource that goes from the start to the end to build a REST API [Build a REST API](https://medium.com/swlh/build-your-first-rest-api-with-django-rest-framework-e394e39a482c)
+6. [Serialization](https://www.django-rest-framework.org/api-guide/serializers/) is the process of converting Django models into other formats like JSON. We also have deserialization which translate parsed data to complex types to store in files. You should choose the type of serializer that is best for your program.
+7. [Difference between Model Serializer and Hyperlinked serializer](https://stackoverflow.com/questions/33421147/what-is-the-benefit-of-using-a-hyperlinkedmodelserializer-in-drf)
+8. Use [class-based views](https://www.django-rest-framework.org/tutorial/3-class-based-views/) to manage requests and resonses from the web.
+9. Use [Routers](https://www.django-rest-framework.org/api-guide/routers/) to map the incoming request (e.g GET, POST, PUT, DELETE) to proper viewset. 
+10. Some other good videos for building a REST API are as follows
+      - [Build a REST API](https://www.dropbox.com/s/k9ww0631hzr8p7j/Build_a_Rest_API_with_the_Django_REST_Framework.mp4?dl=0)
+      - [building-restful-python-web-services-django](https://www.dropbox.com/sh/hcxd7old9zhclmx/AADGorRSBga42Mt6baK2NYI-a?dl=0)
+
 ### React and JavaScript
 
 1. Become familiar with HTML DOM (Document Object Model), which is a tree of objects and nodes. The nodes in HTML DOM can be elements, attributes and texts.
