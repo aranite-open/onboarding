@@ -51,9 +51,6 @@
 7. [Difference between Model Serializer and Hyperlinked serializer](https://stackoverflow.com/questions/33421147/what-is-the-benefit-of-using-a-hyperlinkedmodelserializer-in-drf)
 8. Use [class-based views](https://www.django-rest-framework.org/tutorial/3-class-based-views/) to manage requests and resonses from the web.
 9. Use [Routers](https://www.django-rest-framework.org/api-guide/routers/) to map the incoming request (e.g GET, POST, PUT, DELETE) to proper viewset. 
-10. Some other good videos for building a REST API are as follows
-      - [Build a REST API](https://www.dropbox.com/s/k9ww0631hzr8p7j/Build_a_Rest_API_with_the_Django_REST_Framework.mp4?dl=0)
-      - [building-restful-python-web-services-django](https://www.dropbox.com/sh/hcxd7old9zhclmx/AADGorRSBga42Mt6baK2NYI-a?dl=0)
 
 ### React and JavaScript
 
